@@ -24,7 +24,7 @@ I've included a client program in typescript that you can run with [Bun](https:/
 
 ## Run the client
 
-    bun index.ts
+    bun demo.ts
 
 It assumes that strfry is in your PATH and that strfry-db exists in the current folder and has some kind 1 events to query.
 
