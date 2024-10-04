@@ -15,7 +15,7 @@ When it reads some input on the socket it treats the first word as the name of a
     { nc -lU result & pid=$!; echo "result expr 3 + 4" | nc -U rpc; wait $pid; } 2> /dev/null
     7
 
-I've included a client program in typescript that you can run with `bun` to test it out
+I've included a client program in typescript that you can run with [Bun](https://bun.sh/) to test it out
 
     import { scan } from "./strfry.ts";
 
